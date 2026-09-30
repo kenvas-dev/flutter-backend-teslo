@@ -2,9 +2,12 @@
 
 ## Development
 1. Tener corriendo el servicio de Docker (Docker Desktop o Docker Daemon)
-2. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
-3. Levantar los servicios con el comando
+2. Copiar el archivo __.env.template__ y renombrar la copia a __.env__
+```bash
+cp .env.template .env
 ```
+3. Levantar los servicios con el comando
+```bash
 docker compose up -d
 ```
 4. Llenar la base de datos con data temporal:
